@@ -9,6 +9,7 @@ def student(rollno, name, division="SY2"):
     print(name, rollno, division)
     
 student(14, "Arham")
+student(4, "Avanti", "SY3")
 
 #Variable_argument
 def subjects(*sub):
